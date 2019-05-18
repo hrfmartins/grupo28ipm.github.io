@@ -1,81 +1,84 @@
-<!doctype html>
-
-<html lang="pt">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+   <title> IPM </title>
+   <link rel="stylesheet" href="asd.css">
+   <style type="text/css">
+   </style>
+   <script type="text/javascript">
+      function toggleVisible(id) {
+      }
 
-    <title>iGo - Home</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="code.js"></script>
-
+   </script>
 </head>
 
-<body onload = "startTime(), startDay()">
-
-    <img src = "img/teste.png" id = "outer" style = "border-radius : 0">
-
-    <div id = "icons" style = "border-radius : 0">
-
-        <div id = "divhead" style = "border-radius : 0">        
-            <span id="time"></span>
-            <img src = "img/mm.png" id = "home" width ="15" height="13">
-            <span id="date"></span>
-            <img src = "img/dm_on.png" id = "dm" width ="12" height="12">
-            <img src = "img/wifi_on.png" id = "wifi" width ="15" height="12">
-            <img src = "img/rede.png" id = "rede" width ="12" height="12">
-            <img src = "img/bateria.png" id = "bateria" width ="23" height="12">
-        </div>
-        
-        <div id = "icons_div">
-            <table id="grelha_icons">
-                <tr>
-                    <td>
-                        <a href="Health/health.html">
-                            <img src="img/health.png" id = "Health" width="40" height="40" /></a>
-                        <figcaption>Health</figcaption>
-                    </td>
-                    <td>
-                        <a href="chat.html">
-                            <img src="img/chat.png" id = "Chat" width="40" height="40" /></a>
-                        <figcaption>Chat</figcaption>
-                    </td>
-                    <td><a href="Explore/explore.html">
-                            <img src="img/map.png" id = "Map" width="40" height="40" /></a>
-                        <figcaption>Explore</figcaption>
-                        
-                    </td>
-                    <td><a href="camera.html">
-                            <img src="img/camera.png" id = "Camera" width="40" height="40" /></a>
-                        <figcaption>Camera</figcaption>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="Drone/drone.html">
-                            <img src="img/drone.png" id = "Drone" width="40" height="40" /></a>
-                        <figcaption>Drone</figcaption>
-                    </td>
-                </tr>
-                <tr>
-                        <td>
-                            <a href="Drone/drone.html">
-                                <img src="img/drone.png" id = "Drone" width="40" height="40" /></a>
-                            <figcaption>Drone</figcaption>
-                        </td>
-                    </tr>
-                    <tr>
-                            <td>
-                                <a href="Drone/drone.html">
-                                    <img src="img/drone.png" id = "Drone" width="40" height="40" /></a>
-                                <figcaption>Drone</figcaption>
-                            </td>
-                        </tr>
-            </table>
-        </div>
-    </div>
-    
-    </body>
+<body>
+   <h1>Interfaces Pessoa M&aacute;quina 2018-19</h1>
+   <h2>Grupo 28 - Turno IPM Quarta-Feira 16h30</h2>
+   <table>
+      <tr id="tr1">
+         <td>Hugo Martins</td>
+         <td>Pedro Nascimento</td>
+         <td>Marc Jelkic</td>
+      </tr>
+      <tr id="tr2">
+         <td>90727</td>
+         <td>90765</td>
+         <td>84741</td>
+      </tr>
+      <tr id="tr3">
+         <td><img id="hugo" src="student1.png"></td>
+         <td><img id="pedro" src="student2.png"></td>
+         <td><img id="marc" src="student3.png"></td>
+      </tr>
+   </table>
+   <div id="links" style="text-align: left; padding-left: 100px;">
+      <p>
+         <div id="at" class="section">
+            <h2 class="section">An&aacute;lise de Tarefas</h2>
+            <div id="at_inner" class="inner_section">
+               <a href="questionario1.html">Question&aacute;rio para an&aacute;lise de tarefas</a> <br />
+               <a href="28T-Questionario.pdf">Question&aacute;rio para an&aacute;lise de tarefas (melhorado)</a> <br />
+               <a href="28T-Relatorio.pdf">An&aacute;lise de tarefas + Funcionalidades</a> <br />
+               <a href="at2.html">An&aacute;lise de tarefas + Funcionalidades (melhorados)</a> <br />
+            </div>
+         </div>
+         <div id="mc" class="section">
+            <h2 class="section">Modelo Conceptual</h2>
+            <div id="mc_inner" class="inner_section">
+               <a href="mod-conceptual1.html">Modelo Conceptual</a> <br />
+               <a href="mod-conceptual2.html">Modelo Conceptual (melhorado)</a> <br />
+            </div>
+         </div>
+         <div id="proto" class="section">
+            <h2 class="section">Prot&oacute;tipos</h2>
+            <div id="proto_inner" class="inner_section">
+               <a href="pbf1.html">PBF</a> <br />
+               <a href="pbf2.html">PBF (melhorado)</a> <br />
+               <a href="/IPM/index.html">Primeiro prot&oacute;tipo funcional</a> <br />
+               <a href="/IPM/index.html">Primeiro prot&oacute;tipo funcional completo</a> <br />
+               <a href="/IPM/index.html">Segundo prot&oacute;tipo funcional</a> <br />
+               <a href="/IPM/index.html">Segundo prot&oacute;tipo funcional completo</a><br />
+               <a href="/IPM/index.html">Prot&oacute;tipo Final</a> <br />
+               <a href="protFinal-completo.html">Prot&oacute;tipo Final completo</a><br />
+            </div>
+         </div>
+         <div id="au" class="section">
+            <h2 class="section">Avalia&ccedil;&atilde;o com Utilizadores</h2>
+            <div id="au_inner" class="inner_section">
+               <a href="tarefas-criterios1.html">Tarefas e Crit&eacute;rios de usabilidade</a> <br />
+               <a href="tarefas-criterios2.html">Tarefas e Crit&eacute;rios de usabilidade (melhorado)</a> <br />
+               <a href="relatorioTestes1.html">Relat&oacute;rio da avalia&ccedil;&atilde;o com utilizadores</a> <br />
+               <a href="relatorioTestes2.html">Relat&oacute;rio da avalia&ccedil;&atilde;o com utilizadores
+                  (melhorado)</a> <br />
+               <a href="manual.html">Manual do Utilizador</a> <br />
+      </p>
+   </div>
+   </div>
+   </div>
+   <script></script>
+</body>
 
 </html>
